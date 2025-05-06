@@ -6,9 +6,9 @@ int main () {
 	sum = a + b + c;
 	avg = sum/3;
 	mul = a * b * c;
-	printf("The sum of a, b and c is %d", &sum);
-	printf("The avg is %d", &avg);
-	printf("The multiplication is %d", &mul);
+	printf("The sum of a, b and c is %d", sum);
+	printf("The avg is %d", avg);
+	printf("The multiplication is %d", mul);
 
 	return 0;
 }
